@@ -1,0 +1,33 @@
+{
+  "name": "aststudy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "main": "src",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/parser": "^7.24.5",
+    "@babel/plugin-transform-typescript": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/traverse": "^7.24.5",
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__traverse": "^7.20.5",
+    "@types/node": "^20.12.4"
+  },
+  "dependencies": {
+    "@types/typescript": "^2.0.0",
+    "acorn": "^8.11.3",
+    "acorn-typescript": "^1.4.13",
+    "acorn-walk": "^8.3.2",
+    "typescript": "^5.4.5"
+  }
+}
