@@ -5,7 +5,7 @@ import { simple } from 'acorn-walk';
 (async () => {
     try {
         const searchWord: string  = process.argv[2];
-        const filePath:string = '../codesample/samplecode.js';
+        const filePath:string = './codesample/samplecode.js';
         const fileContent:string = await fsPromises.readFile(filePath, 'utf8');
         //別のファイルのASTを生成 タイプスクリプトのAST作成には，追加作業必要
         const parsed = acorn.parse(fileContent, { ecmaVersion: 2020 ,sourceType: 'module'});
