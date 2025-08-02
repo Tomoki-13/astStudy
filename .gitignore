@@ -1,5 +1,4 @@
-sample
-src/**.js
 package-lock.json
-codesample
 node_modules
+.DS_Store
+src/output
