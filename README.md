@@ -6,13 +6,13 @@ npm install
 ```
 ### acornAstSample.tsの実行：acornを用いたコード抽出
 ```bash
-#acornの部分は，入力ファイルによって変えてください
+#acornの部分は，入力ファイルで調べたい内容によって変えてください
 ts-node acornAstSample.ts acorn
 ```
 ### babelAstSample.tsの実行：babelを用いたコード抽出
 ```bash
+// acorn を使用している場所を抽出
 ts-node babelAstSample.ts acorn
-ts-node babelAstSample.ts fs
 ```
 ### reg.tsの実行：正規表現でコードを取得する例
 ```bash
